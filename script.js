@@ -10,10 +10,10 @@ eraseBtn.addEventListener("click", function(){
 });
 
 inputBtn.addEventListener("click", function(){
-    input = prompt("Enter a number of squares per side:");
+    input = prompt("Enter a number of squares per side (Between 1 and 100):");
     input = parseInt(input);
 
-    if(Number.isInteger(input) == true && input <= 100){
+    if(Number.isInteger(input) == true && input <= 100 && input > 0){
         updateGrid(input);
     }else{
         console.log("Invalid input!");

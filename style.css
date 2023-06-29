@@ -4,6 +4,14 @@ body {
     margin: 0px;
     flex-direction: column;
     background: lightgray;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+    border-radius: 25px;
+    height: 3vh;
+    font-size: 1.2vh;
+    font-weight: 600;
 }
 
 #user-input {
@@ -28,8 +36,4 @@ body {
 
 .column {
     flex: 1;
-}
-
-.square {
-    
 }
