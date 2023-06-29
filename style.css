@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    flex-direction: column;
+    background: lightgray;
+}
+
+#user-input {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    width: 20%;
+}
+
+#erase {
+    margin-bottom: 3vh;
+    width: 20%;
+}
+
+#grid-container {
+    display: flex;
+    height: 80vh;
+    width: 80vh;
+    border: groove black 3px;
+    box-shadow: 0px 10px 10px gray;
+    background: white;
+}
+
+.column {
+    flex: 1;
+}
+
+.square {
+    
+}
